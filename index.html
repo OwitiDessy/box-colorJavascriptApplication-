@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Box Color</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+  </head>
+  
+  <body>
+    <div class="box" id="myBox">
+      <input id="colorBox" value="Type a color here"/>
+      <button onclick="changeBoxColor()">click me after typing color</button>
+      <script>
+        function changeBoxColor (){
+          var color = document.getElementById('colorBox').value;
+          document.getElementById('myBox').style.backgroundColor = color;
+        }
+      </script>
+    </div>  
+  </body>  
+</html>

@@ -1,0 +1,23 @@
+body{
+  background-color: blue;
+    }
+
+button{
+  background-color: red;
+  font-size: 14px;
+  margin-left: 50%;
+}    
+
+.box{
+  background-color: black;
+  top: 60%;
+  bottom: 60%;
+  padding: 60px;
+  max-width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20%;
+}
+
+
+ 
